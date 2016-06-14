@@ -5,11 +5,13 @@ This is a work-in-progress, solutions for [Elements of Programming Interviews][1
 
 ### How to run
 After cloning the directory, prepare it with:
-```npm install
+```bash
+npm install
 ```
 
 To run the included unit tests:
-```npm run test:watch
+```bash
+npm run test:watch
 ```
 
 Solutions
