@@ -1,7 +1,7 @@
 epi-js
 ======
 
-This is a work-in-progress, solutions for [Elements of Programming Interviews][1] problems written in Javascript. README template based off a similar project by [mrekucci][https://github.com/mrekucci/epi].
+These are my current solutions to [Elements of Programming Interviews][1], written in Javascript.
 
 ### How to run
 After cloning the directory, prepare it with:
