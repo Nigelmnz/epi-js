@@ -1,8 +1,8 @@
 /* eslint no-param-reassign: 0*/
 /*
   Problem: Given an array and an index, rearrange the array such that
-  all elements less than i are before i, and those greater are after it. Do it
-  in linear time and constant space.
+  all elements less than i are before i, and those greater are after it.
+  Do it in linear time and constant space.
 */
 
 export default function partition(arr, piv) {

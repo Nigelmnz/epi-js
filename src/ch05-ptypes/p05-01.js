@@ -2,7 +2,8 @@
 Problem: Find the parities of what might be a very large set of numbers.(Parity is 1
 when a number has a odd number of 1's as bits, 0 otherwise.)
 
-Solution: Precompute the parity of all 8-bit numbers. Then, given a 32 bit number, split it into 4 8-bit numbers, and find the total partity in constant time.
+Solution: Precompute the parity of all 8-bit numbers. Then, given a 32 bit number,
+split it into 4 8-bit numbers, and find the total partity in constant time.
 */
 
 let parityTable = Array(256).fill(0);

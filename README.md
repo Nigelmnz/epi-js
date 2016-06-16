@@ -69,6 +69,7 @@ Binary Trees
 
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
+| [Traversal of binary trees][10]                                           | [tests][11]  |
 
 Heaps
 -----
@@ -158,3 +159,16 @@ Honors Class
 [7]:   src/ch07-linkedLists/p07-01.spec.js
 [8]:   src/ch08-stacksAndQueues/p08-01.js
 [9]:   src/ch08-stacksAndQueues/p08-01.spec.js
+[10]:  src/ch09-bTrees/p09-05.js
+[11]:  src/ch09-bTrees/p09-05.spec.js
+[12]:  src/ch10-heaps/
+[13]:  src/ch10-heaps/
+[14]:  src/ch11-searching/
+[15]:  src/ch11-searching/
+[16]:  src/ch12-hashtables/
+[17]:  src/ch12-hashtables/
+[18]:  src/ch13-sorting/
+[19]:  src/ch13-sorting/
+[20]:  src/ch14-bst/
+[21]:  src/ch14-bst/
+[22]:  src/ch
