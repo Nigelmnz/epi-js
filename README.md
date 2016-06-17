@@ -69,13 +69,14 @@ Binary Trees
 
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
-| [Traversal of binary trees][10]                                           | [tests][11]  |
+| [Traversal of binary trees][10]                                          | [tests][11]  |
 
 Heaps
 -----
 
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
+| [Merging k sorted arrays][12]                                            | [tests][13]  |
 
 Searching
 ---------
@@ -84,6 +85,7 @@ Searching
 
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
+| [Finding the first element larger than k][14]                            | [tests][15]  |
 
 ### Generalized Search
 
@@ -95,6 +97,7 @@ Hash Tables
 
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
+| [Checking if the characters of string A can form string B][16]           | [tests][17]  |
 
 Sorting
 -------
@@ -161,12 +164,12 @@ Honors Class
 [9]:   src/ch08-stacksAndQueues/p08-01.spec.js
 [10]:  src/ch09-bTrees/p09-05.js
 [11]:  src/ch09-bTrees/p09-05.spec.js
-[12]:  src/ch10-heaps/
-[13]:  src/ch10-heaps/
-[14]:  src/ch11-searching/
-[15]:  src/ch11-searching/
-[16]:  src/ch12-hashtables/
-[17]:  src/ch12-hashtables/
+[12]:  src/ch10-heaps/p10-01.js
+[13]:  src/ch10-heaps/p10-01.spec.js
+[14]:  src/ch11-searching/p11-02.js
+[15]:  src/ch11-searching/p11-02.js
+[16]:  src/ch12-hashtables/p12-09.js
+[17]:  src/ch12-hashtables/p12-09.spec.js
 [18]:  src/ch13-sorting/
 [19]:  src/ch13-sorting/
 [20]:  src/ch14-bst/
