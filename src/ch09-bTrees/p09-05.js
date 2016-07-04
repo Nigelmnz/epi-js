@@ -170,13 +170,42 @@ export function postorderStack(T) {
 
   while (stack.length > 0) {
     ptr = stack.pop();
-    ans.unshift(ptr.data);
+    ans.push(ptr.data);
     if (ptr.left) {
       stack.push(ptr.left);
     }
 
     if (ptr.right) {
       stack.push(ptr.right);
+    }
+  }
+
+  return ans.reverse();
+}
+
+export function postorderStack1(T) {
+  const ans = [];
+  const stack = [];
+  let ptr = T;
+
+  while (ptr || stack.length > 0) {
+    console.log(stack.map((x) => x.data));
+    if (ptr) {
+      if (ptr.right) {
+        stack.push(ptr.right);
+      }
+      stack.push(ptr);
+      ptr = ptr.left;
+    } else {
+      ptr = stack.pop();
+      if (stack.length > 0 && ptr.right && ptr.right === stack.slice(-1)[0]) {
+        const next = stack.pop();
+        stack.push(ptr);
+        ptr = next;
+      } else {
+        ans.push(ptr.data);
+        ptr = null;
+      }
     }
   }
 

@@ -104,12 +104,14 @@ Sorting
 
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
+| [Find the intersection of two sorted lists][18]                          | [tests][19]  |
 
 Binary Search Trees
 -------------------
 
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
+| [Determine is a tree is a BST][20]                                       | [tests][21]  |
 
 Recursion
 ---------
@@ -122,6 +124,7 @@ Dynamic Programming
 
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
+| [Find the edit distance between two strings][21]                         | [tests][22]  |
 
 Greedy Algorithms and Invariants
 --------------------------------
@@ -170,8 +173,9 @@ Honors Class
 [15]:  src/ch11-searching/p11-02.js
 [16]:  src/ch12-hashtables/p12-09.js
 [17]:  src/ch12-hashtables/p12-09.spec.js
-[18]:  src/ch13-sorting/
-[19]:  src/ch13-sorting/
-[20]:  src/ch14-bst/
-[21]:  src/ch14-bst/
-[22]:  src/ch
+[18]:  src/ch13-sorting/p13-05.js
+[19]:  src/ch13-sorting/p13-05.spec.js
+[20]:  src/ch14-bst/p14-01.js
+[21]:  src/ch14-bst/p14-01.spec.js
+[22]:  src/ch15-meta/p15-11.js
+[23]:  src/ch15-meta/p15-11.spec.js

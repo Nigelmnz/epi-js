@@ -24,11 +24,12 @@ describe('Binary Tree', () => {
     )
   );
 
-  beforeEach(() => {
-
-  });
   it('handles inorder morris traversal', () => {
-    expect(tree.morrisTraversal()).to.eql([1, 2, 3, 4, 5, 6, 7]);
-    expect(treeTwo.morrisTraversal()).to.eql([1, 2, 3, 4, 5]);
+    expect(tree.inorder()).to.eql([1, 2, 3, 4, 5, 6, 7]);
+    expect(treeTwo.inorder()).to.eql([1, 2, 3, 4, 5]);
+  });
+
+  it('supports array init', () => {
+    expect(new BT([4, 2, 6, 1, 3, 5, 7]).inorder()).to.eql([1, 2, 3, 4, 5, 6, 7]);
   });
 });
