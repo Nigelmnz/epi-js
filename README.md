@@ -124,7 +124,7 @@ Dynamic Programming
 
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
-| [Find the edit distance between two strings][21]                         | [tests][22]  |
+| [Find the edit distance between two strings][22]                         | [tests][23]  |
 
 Greedy Algorithms and Invariants
 --------------------------------
@@ -170,7 +170,7 @@ Honors Class
 [12]:  src/ch10-heaps/p10-01.js
 [13]:  src/ch10-heaps/p10-01.spec.js
 [14]:  src/ch11-searching/p11-02.js
-[15]:  src/ch11-searching/p11-02.js
+[15]:  src/ch11-searching/p11-02.spec.js
 [16]:  src/ch12-hashtables/p12-09.js
 [17]:  src/ch12-hashtables/p12-09.spec.js
 [18]:  src/ch13-sorting/p13-05.js
