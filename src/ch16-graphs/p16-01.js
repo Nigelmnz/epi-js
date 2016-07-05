@@ -1,4 +1,4 @@
-// What is the edit distance between two strings?
+// Given a 2D maze, find a path from A to B.
 export default function findPath(graph, start, end) {
   const [endY, endX] = end;
   const queue = [{ pos: start, path: [start] }];
