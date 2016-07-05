@@ -1,4 +1,4 @@
-epi-js
+  epi-js
 ======
 
 These are my current solutions to [Elements of Programming Interviews][1], written in Javascript.
@@ -137,6 +137,7 @@ Graphs
 
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
+| [Solve a maze][24]                                                       | [tests][25]  |
 
 Parallel Computing
 ------------------
@@ -179,3 +180,5 @@ Honors Class
 [21]:  src/ch14-bst/p14-01.spec.js
 [22]:  src/ch15-meta/p15-11.js
 [23]:  src/ch15-meta/p15-11.spec.js
+[24]:  src/ch16-graphs/p16-01.js
+[25]:  src/ch16-graphs/p16-01.spec.js
