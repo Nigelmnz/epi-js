@@ -157,6 +157,21 @@ Honors Class
 | Problem                                                                  | Test         |
 |--------------------------------------------------------------------------|:------------:|
 
+Structures and Algorithms
+=========
+
+| Type                                                                     | Test         |
+|--------------------------------------------------------------------------|:------------:|
+| [Binary Tree][26]                                                        | [tests][27]  |
+| [Binary Search Tree][28]                                                 | [tests][29]  |
+| [Graph Search][30]                                                       | [tests][31]  |
+| [Hashtable][32]                                                          | [tests][33]  |
+| [Binary Heap][34]                                                        | [tests][35]  |
+| [Linked List][36]                                                        | [tests][37]  |
+| [Tree Node][38]                                                          | [tests][39]  |
+| [Sorts][40]                                                              | [tests][41]  |
+| [Trie][44]                                                               | [tests][45]  |
+
 [1]:   http://elementsofprogramminginterviews.com
 [2]:   src/ch05-ptypes/p05-01.js
 [3]:   src/ch05-ptypes/p05-01.spec.js
@@ -182,3 +197,23 @@ Honors Class
 [23]:  src/ch15-meta/p15-11.spec.js
 [24]:  src/ch16-graphs/p16-01.js
 [25]:  src/ch16-graphs/p16-01.spec.js
+[26]:  library/binaryTree.js
+[27]:  library/binaryTree.spec.js
+[28]:  library/BST.js
+[29]:  library/BST.spec.js
+[30]:  library/graph.js
+[31]:  library/graph.spec.js
+[32]:  library/hashtable.js
+[33]:  library/hastable.spec.js
+[34]:  library/heap.js
+[35]:  library/heap.spec.js
+[36]:  library/linkedList.js
+[37]:  library/linkedList.spec.js
+[38]:  library/node.js
+[39]:  library/node.spec.js
+[40]:  library/sorts.js
+[41]:  library/sorts.spec.js
+[42]:  library/suffixTree.js
+[43]:  library/suffixTree.spec.js
+[44]:  library/trie.js
+[45]:  library/trie.spec.js
