@@ -1,7 +1,7 @@
   epi-js
 ======
 
-These are my current solutions to [Elements of Programming Interviews][1], written in Javascript.
+These are my current solutions to [Elements of Programming Interviews][1], written in Typescript.
 
 ### How to run
 After cloning the directory, prepare it with:
@@ -20,32 +20,32 @@ Solutions
 Primitive Types
 ---------------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Computing the parity of a word][2]                                      | [tests][3]   |
+| Problem                             |    Test    |
+| ----------------------------------- | :--------: |
+| [Computing the parity of a word][2] | [tests][3] |
 
 Arrays and Strings
 -----------------
 
 ### Arrays
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [The Dutch national flag problem][4]                                     | [tests][5]   |
+| Problem                              |    Test    |
+| ------------------------------------ | :--------: |
+| [The Dutch national flag problem][4] | [tests][5] |
 
 
 ### Strings
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
+| Problem | Test  |
+| ------- | :---: |
 
 
 Linked Lists
 ------------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Merge two sorted lists][6]                                              | [tests][7]   |
+| Problem                     |    Test    |
+| --------------------------- | :--------: |
+| [Merge two sorted lists][6] | [tests][7] |
 
 
 Stacks and Queues
@@ -53,124 +53,124 @@ Stacks and Queues
 
 ### Stacks
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Implement a stack with max API][8]                                      | [tests][9]   |
+| Problem                             |    Test    |
+| ----------------------------------- | :--------: |
+| [Implement a stack with max API][8] | [tests][9] |
 
 
 ### Queues
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
+| Problem | Test  |
+| ------- | :---: |
 
 
 Binary Trees
 ------------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Traversal of binary trees][10]                                          | [tests][11]  |
+| Problem                         |    Test     |
+| ------------------------------- | :---------: |
+| [Traversal of binary trees][10] | [tests][11] |
 
 Heaps
 -----
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Merging k sorted arrays][12]                                            | [tests][13]  |
+| Problem                       |    Test     |
+| ----------------------------- | :---------: |
+| [Merging k sorted arrays][12] | [tests][13] |
 
 Searching
 ---------
 
 ### Binary Search
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Finding the first element larger than k][14]                            | [tests][15]  |
+| Problem                                       |    Test     |
+| --------------------------------------------- | :---------: |
+| [Finding the first element larger than k][14] | [tests][15] |
 
 ### Generalized Search
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
+| Problem | Test  |
+| ------- | :---: |
 
 Hash Tables
 -----------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Checking if the characters of string A can form string B][16]           | [tests][17]  |
+| Problem                                                        |    Test     |
+| -------------------------------------------------------------- | :---------: |
+| [Checking if the characters of string A can form string B][16] | [tests][17] |
 
 Sorting
 -------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Find the intersection of two sorted lists][18]                          | [tests][19]  |
+| Problem                                         |    Test     |
+| ----------------------------------------------- | :---------: |
+| [Find the intersection of two sorted lists][18] | [tests][19] |
 
 Binary Search Trees
 -------------------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Determine is a tree is a BST][20]                                       | [tests][21]  |
+| Problem                            |    Test     |
+| ---------------------------------- | :---------: |
+| [Determine is a tree is a BST][20] | [tests][21] |
 
 Recursion
 ---------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
+| Problem | Test  |
+| ------- | :---: |
 
 Dynamic Programming
 -------------------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Find the edit distance between two strings][22]                         | [tests][23]  |
+| Problem                                          |    Test     |
+| ------------------------------------------------ | :---------: |
+| [Find the edit distance between two strings][22] | [tests][23] |
 
 Greedy Algorithms and Invariants
 --------------------------------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
+| Problem | Test  |
+| ------- | :---: |
 
 Graphs
 ------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Solve a maze][24]                                                       | [tests][25]  |
+| Problem            |    Test     |
+| ------------------ | :---------: |
+| [Solve a maze][24] | [tests][25] |
 
 Parallel Computing
 ------------------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
+| Problem | Test  |
+| ------- | :---: |
 
 Design Problems
 ---------------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
+| Problem | Test  |
+| ------- | :---: |
 
 Honors Class
 ------------
 
-| Problem                                                                  | Test         |
-|--------------------------------------------------------------------------|:------------:|
+| Problem | Test  |
+| ------- | :---: |
 
 Structures and Algorithms
 =========
 
-| Type                                                                     | Test         |
-|--------------------------------------------------------------------------|:------------:|
-| [Binary Tree][26]                                                        | [tests][27]  |
-| [Binary Search Tree][28]                                                 | [tests][29]  |
-| [Graph Search][30]                                                       | [tests][31]  |
-| [Hashtable][32]                                                          | [tests][33]  |
-| [Binary Heap][34]                                                        | [tests][35]  |
-| [Linked List][36]                                                        | [tests][37]  |
-| [Tree Node][38]                                                          | [tests][39]  |
-| [Sorts][40]                                                              | [tests][41]  |
-| [Trie][44]                                                               | [tests][45]  |
+| Type                     |    Test     |
+| ------------------------ | :---------: |
+| [Binary Tree][26]        | [tests][27] |
+| [Binary Search Tree][28] | [tests][29] |
+| [Graph Search][30]       | [tests][31] |
+| [Hashtable][32]          | [tests][33] |
+| [Binary Heap][34]        | [tests][35] |
+| [Linked List][36]        | [tests][37] |
+| [Tree Node][38]          | [tests][39] |
+| [Sorts][40]              | [tests][41] |
+| [Trie][44]               | [tests][45] |
 
 [1]:   http://elementsofprogramminginterviews.com
 [2]:   src/ch05-ptypes/p05-01.js

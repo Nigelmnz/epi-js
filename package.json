@@ -1,15 +1,25 @@
 {
-  "name": "epi-js",
-  "version": "1.0.0",
-  "description": "Solutions for the book \"Elements of Programming Interviews\", written in JS.",
-  "scripts": {
-    "test": "mocha --compilers js:babel-core/register",
-    "test:watch": "npm run test -- --watch"
-  },
-  "author": "Nigel Munoz",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-preset-es2015": "^6.9.0",
-    "babel-register": "^6.9.0"
-  }
+    "name": "epi-js",
+    "version": "1.1.0",
+    "description": "Solutions for the book \"Elements of Programming Interviews\", written in JS/TS.",
+    "scripts": {
+        "test": "jest",
+        "test:watch": "npm run test -- --watch"
+    },
+    "author": "Nigel Munoz",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.10.5",
+        "@babel/preset-env": "^7.10.4",
+        "@types/jest": "^26.0.5",
+        "@typescript-eslint/eslint-plugin": "^3.6.1",
+        "@typescript-eslint/parser": "^3.6.1",
+        "babel-jest": "^26.1.0",
+        "eslint": "^7.5.0",
+        "eslint-config-prettier": "^6.11.0",
+        "jest": "^26.1.0",
+        "jest-runner-eslint": "^0.10.0",
+        "ts-jest": "^26.1.3",
+        "typescript": "^3.9.7"
+    }
 }
