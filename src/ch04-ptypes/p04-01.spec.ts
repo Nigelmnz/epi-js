@@ -1,4 +1,4 @@
-import func from "./p05-01";
+import func from "./p04-01";
 
 describe("Computing Parity", () => {
     it("handles a single number number with parity", () => {
