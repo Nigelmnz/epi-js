@@ -5,11 +5,6 @@
 */
 
 export default function solution(arr: number[], index: number): number[] {
-    const pivot = arr[index];
-    let smallerPtr = 0;
-    let largerPtr = arr.length - 1;
-    let searchPtr = 0;
-
     function swap(i: number, j: number) {
         const temp = arr[i];
         arr[i] = arr[j];
@@ -21,6 +16,9 @@ export default function solution(arr: number[], index: number): number[] {
     // will maintain two index pointers which track the boundaries of where
     // the smaller and larger elements are located in the array, and serve as
     // the insertion points for future elements.
+
+    const pivot = arr[index];
+    let [smallerPtr, largerPtr, searchPtr] = [0, arr.length - 1, 0];
 
     while (searchPtr <= largerPtr) {
         const searchValue = arr[searchPtr];
