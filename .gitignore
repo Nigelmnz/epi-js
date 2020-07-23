@@ -2,3 +2,4 @@
 /node_modules
 /template
 npm-debug.log
+.vscode

@@ -1,4 +1,4 @@
-import func from "./p05-01";
+import func from "../p05-01";
 
 describe("Array Partitioning", () => {
     it("handles one element", () => {
