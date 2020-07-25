@@ -29,14 +29,15 @@ npm run test:watch
 
 ### Arrays
 
-| Problem                              |    Test    |
-| ------------------------------------ | :--------: |
-| [The Dutch national flag problem][4] | [tests][5] |
+| Problem                                         |    Test     |
+| ----------------------------------------------- | :---------: |
+| [The Dutch national flag problem][4]            | [tests][5]  |
+| [Compute the Spiral Ordering of a 2D Array][47] | [tests][48] |
 
 ### Strings
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Linked Lists
@@ -55,8 +56,8 @@ npm run test:watch
 
 ### Queues
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Binary Trees
@@ -81,8 +82,8 @@ npm run test:watch
 
 ### Generalized Search
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Hash Tables
@@ -105,8 +106,8 @@ npm run test:watch
 
 ## Recursion
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Dynamic Programming
@@ -117,8 +118,8 @@ npm run test:watch
 
 ## Greedy Algorithms and Invariants
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Graphs
@@ -129,20 +130,20 @@ npm run test:watch
 
 ## Parallel Computing
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Design Problems
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Honors Class
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 # Structures and Algorithms
@@ -205,3 +206,5 @@ npm run test:watch
 [44]: src/library/trie.js
 [45]: src/library/trie.spec.js
 [46]: https://github.com/Nigelmnz/epi-py
+[47]: src/ch05-arrays/p05-18.js
+[48]: src/ch05-arrays/p05-18.spec.js
