@@ -36,7 +36,8 @@ npm run test:watch
 
 ### Strings
 
-| Problem | Test |
+| Problem                                 |    Test     |
+| --------------------------------------- | :---------: |
 | [Interconvert Strings and Integers][49] | [tests][50] |
 
 ## Linked Lists
