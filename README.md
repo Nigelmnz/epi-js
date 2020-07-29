@@ -39,6 +39,7 @@ npm run test:watch
 | Problem                                 |    Test     |
 | --------------------------------------- | :---------: |
 | [Interconvert Strings and Integers][49] | [tests][50] |
+| [Replace and Remove][51]                | [tests][52] |
 
 ## Linked Lists
 
@@ -210,3 +211,5 @@ npm run test:watch
 [48]: src/ch05-arrays/p05-18.spec.js
 [49]: src/ch06-strings/p06-01.js
 [50]: src/ch06-strings/p06-01.spec.js
+[51]: src/ch06-strings/p06-04.js
+[52]: src/ch06-strings/p06-04.spec.js
