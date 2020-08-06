@@ -11,4 +11,7 @@ module.exports = {
         node: true,
     },
     ignorePatterns: ["**/*.js"],
+    rules: {
+        "@typescript-eslint/no-this-alias": "off",
+    },
 };
