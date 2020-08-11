@@ -43,9 +43,10 @@ npm run test:watch
 
 ## Linked Lists
 
-| Problem                     |    Test    |
-| --------------------------- | :--------: |
-| [Merge two sorted lists][6] | [tests][7] |
+| Problem                     |    Test     |
+| --------------------------- | :---------: |
+| [Merge two sorted lists][6] | [tests][7]  |
+| [Cycle Detection][53]       | [tests][54] |
 
 ## Stacks and Queues
 
@@ -57,8 +58,8 @@ npm run test:watch
 
 ### Queues
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Binary Trees
@@ -83,8 +84,8 @@ npm run test:watch
 
 ### Generalized Search
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Hash Tables
@@ -107,8 +108,8 @@ npm run test:watch
 
 ## Recursion
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Dynamic Programming
@@ -119,8 +120,8 @@ npm run test:watch
 
 ## Greedy Algorithms and Invariants
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Graphs
@@ -131,20 +132,20 @@ npm run test:watch
 
 ## Parallel Computing
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Design Problems
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 ## Honors Class
 
-| Problem | Test |
-| ------- | :--: |
+| Problem | Test  |
+| ------- | :---: |
 
 
 # Structures and Algorithms
@@ -162,12 +163,12 @@ npm run test:watch
 | [Trie][44]               | [tests][45] |
 
 [1]: http://elementsofprogramminginterviews.com
-[2]: src/ch04-ptypes/p04-01.js
-[3]: src/ch04-ptypes/p04-01.spec.js
-[4]: src/ch05-arrays/p05-01.js
-[5]: src/ch05-arrays/p05-01.spec.js
-[6]: src/ch07-linkedLists/p07-01.js
-[7]: src/ch07-linkedLists/p07-01.spec.js
+[2]: src/ch04-ptypes/p04-01.ts
+[3]: src/ch04-ptypes/p04-01.spec.ts
+[4]: src/ch05-arrays/p05-01.ts
+[5]: src/ch05-arrays/p05-01.spec.ts
+[6]: src/ch07-linkedLists/p07-01.ts
+[7]: src/ch07-linkedLists/p07-01.spec.ts
 [8]: src/ch08-stacksAndQueues/p08-01.js
 [9]: src/ch08-stacksAndQueues/p08-01.spec.js
 [10]: src/ch09-bTrees/p09-05.js
@@ -196,10 +197,10 @@ npm run test:watch
 [33]: src/library/hastable.spec.js
 [34]: src/library/heap.js
 [35]: src/library/heap.spec.js
-[36]: src/library/linkedList.js
-[37]: src/library/linkedList.spec.js
-[38]: src/library/node.js
-[39]: src/library/node.spec.js
+[36]: src/library/linkedList.ts
+[37]: src/library/linkedList.spec.ts
+[38]: src/library/node.ts
+[39]: src/library/node.spec.ts
 [40]: src/library/sorts.js
 [41]: src/library/sorts.spec.js
 [42]: src/library/suffixTree.js
@@ -207,9 +208,11 @@ npm run test:watch
 [44]: src/library/trie.js
 [45]: src/library/trie.spec.js
 [46]: https://github.com/Nigelmnz/epi-py
-[47]: src/ch05-arrays/p05-18.js
-[48]: src/ch05-arrays/p05-18.spec.js
-[49]: src/ch06-strings/p06-01.js
-[50]: src/ch06-strings/p06-01.spec.js
-[51]: src/ch06-strings/p06-04.js
-[52]: src/ch06-strings/p06-04.spec.js
+[47]: src/ch05-arrays/p05-18.ts
+[48]: src/ch05-arrays/p05-18.spec.ts
+[49]: src/ch06-strings/p06-01.ts
+[50]: src/ch06-strings/p06-01.spec.ts
+[51]: src/ch06-strings/p06-04.ts
+[52]: src/ch06-strings/p06-04.spec.ts
+[53]: src/ch07-linkedLists/p07-03.ts
+[54]: src/ch07-linkedLists/p07-03.spec.ts

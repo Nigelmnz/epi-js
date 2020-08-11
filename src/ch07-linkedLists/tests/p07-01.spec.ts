@@ -1,5 +1,5 @@
-import func from "./p07-01";
-import LinkedListNode from "../library/linkedList";
+import func from "../p07-01";
+import LinkedListNode from "../../library/linkedList";
 
 describe("Linked List Merge", () => {
     it("handles two one element lists", () => {
