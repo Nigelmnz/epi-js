@@ -78,4 +78,41 @@ describe("Trie", () => {
         expect(trie.autocomplete("lo")).toEqual("love");
         expect(trie.autocomplete("m")).toEqual("mega");
     });
+
+    it("handles empty string operations", () => {
+        trie.insert("");
+        expect(trie.search("")).toBe(true);
+        expect(trie.isLeaf).toBe(true);
+    });
+
+    it("handles deletion of non-existent words", () => {
+        trie.insert("hello");
+        trie.insert("world");
+        expect(trie.delete("goodbye")).toBe(false);
+        expect(trie.search("hello")).toBe(true);
+        expect(trie.search("world")).toBe(true);
+    });
+
+    it("handles autocomplete with non-existent prefix", () => {
+        trie.insert("apple", 5);
+        trie.insert("banana", 3);
+        expect(trie.autocomplete("xyz")).toEqual("xyz");
+        expect(trie.autocomplete("car")).toEqual("car");
+    });
+
+    it("handles getWithPrefix with non-existent prefix", () => {
+        trie.insert("apple");
+        trie.insert("application");
+        trie.insert("banana");
+        expect(trie.getWithPrefix("xyz")).toEqual([]);
+        expect(trie.getWithPrefix("ban").length).toEqual(1);
+    });
+
+    it("handles multiple words with same prefix and different weights", () => {
+        trie.insert("care", 2);
+        trie.insert("card", 3);
+        trie.insert("cardinal", 5);
+        expect(trie.autocomplete("car")).toEqual("card");
+        expect(trie.getWithPrefix("car").length).toEqual(3);
+    });
 });
